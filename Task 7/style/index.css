@@ -1,0 +1,448 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding: auto;
+} 
+.head2{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center;
+    flex: auto;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    height: 3rem;
+    cursor: pointer;
+} 
+.head1 p{
+    font-size: large;
+    font-weight:600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(42, 41, 41);
+    cursor: pointer;
+}
+.head2 p{
+    display: flex;
+    flex: auto;
+    gap: 2rem;
+    color: rgb(77, 76, 76);
+    cursor: pointer;
+    color: rgb(154, 152, 152);
+    font-size: medium;
+    margin-left: 2rem;
+}
+.head2 p:hover{
+    color: rgb(255, 178, 85);
+}
+
+/*main*/
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+    flex-direction: row;
+    row-gap: 5rem;
+    width: 100%;
+
+}
+.header__card img{
+    width: 30rem;
+    background-color: rgb(255, 195, 121);
+}
+.home{
+    margin: 1rem;
+    padding: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-direction: column;
+}
+.home__about{
+    padding: 10px;
+    margin: 5px;
+
+}
+.social{
+    margin-right: 10rem;
+    padding: 15rem;
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    gap: 3rem;
+    position: absolute;
+    right: 35rem;
+    transform:rotate(-90deg);
+}
+.social :visited{
+    text-decoration: none;
+    color: rgb(80, 76, 76);
+}
+.home__buttons{
+    display: flex;
+}
+.button1 button{
+    width: 70px;
+    height: 50px;
+    border: none;
+    margin: px;
+    padding: 5px;
+    background-color: rgba(196, 196, 196, 0.824);
+}
+.button2 button{
+    width: 100px;
+    height: 50px;
+    margin-left: -4px;
+    color: #fff;
+    background-color: rgb(56, 54, 54);
+}
+.button1 .button:hover{
+    background-color: rgb(161, 161, 161);
+}
+
+/*FEATURED*/
+.featured__main{
+    width: 100%;
+    padding-top: 3REM;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.featured__main h2{
+    text-align: center;
+    font-size:x-large;
+    font-family:sans-serif;
+}
+    
+.featured__card{
+    width: calc(100% / 3);
+    height: 347px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2.5rem;
+    overflow: hidden;
+    border: 1px solid rgb(235, 229, 229);
+    background-color: rgb(245, 245, 250);
+    transition: 1s;
+}
+.featured__card:hover{
+    height: 420px;   
+}
+.featured__card img{
+    height: 10rem;
+    margin:2rem 0 1rem 0;
+    object-fit: contain;
+
+}
+.featured__tag{
+    text-align: start;
+    color: #fff;
+    background-color: rgb(255, 166, 57);
+    font-size: small;
+    font-weight: bold;
+    padding: 1rem;
+    position: absolute;
+    top: 2rem;
+    left: -0.5rem;
+    transform: rotate(-90deg);
+}
+h3{
+    color: rgb(74, 72, 72);
+    font-size: large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.featured__price{
+    font-size: large;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 170, 66);
+}
+
+.data{
+    flex: auto;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-items: flex-end;
+}
+.data button{
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    font-size: medium;
+    color: #fff;
+    background-color: rgb(29, 28, 28);
+}
+
+/*story*/
+.our_story__container{
+    width: 100%;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    gap: 5rem;
+    padding: 2rem;
+    margin: 3rem;
+}
+.story__about h2{
+    font-weight: 600;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif, 
+}
+.story__name h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large; 
+    font-weight: 600;
+}
+.story-image img{
+    width: 30rem;
+    box-shadow: -4rem 4rem #f0b153;
+}
+.story__button{
+    color: #fff;
+    background-color: rgb(77, 74, 74);
+    margin-top: 2rem;
+    width: 7rem;
+    height: 3rem;
+}
+
+/*products*/
+.products__title {
+    padding-top: 5rem;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product__card img{
+    width: 150px;
+    height: 200px;
+}
+.products__container{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3,2fr);
+}
+.product__card{
+    height: auto;
+    border: 1px solid color(0 0 0 .7);
+    padding: 3rem;
+    margin: 2rem;
+    text-align: center;
+    transition: 0.5s;
+    background-color: hsl(0, 11%, 95%)
+}
+.product__card:hover{
+    transform: scale(1.1,1.1);
+}
+.product__title{
+    margin: 0.5rem;
+}
+.product__card span{
+    color: #f0b153;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+/*review*/
+.review__profile img{
+    width: 70px;
+    border-radius: 50px;
+}
+.review__image img{
+    width: 370px;
+    margin: 5rem 5rem;
+    border-radius: 0%;
+    box-shadow: 4rem -4rem #f0b153;
+}
+.review__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.review__profile{
+    margin: 1rem;
+    display: flex;
+    flex: auto;
+    gap: 1rem;
+}
+.review__about{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.review__text{
+    width: 390px;
+    margin: 8rem;
+}
+.review__text h3{
+    margin: 2rem;
+    font-size: large;
+    font-weight: 300;
+}
+.review__text p{
+
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+
+/*NEW ARRIVAL*/
+
+
+.new-arrival__title {
+    margin-top: 3rem;
+    text-align: center;
+}
+.new-arrival__card img{
+    width: 7rem;
+    height: 20rem;
+    padding-top: 2rem;
+    margin-left: 3rem;
+}
+/* .new-arrivals__main{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    } */
+.new-arrivals__main{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+}
+
+.new-arrival__card{
+    width: 250px;
+    height: 400px;
+    border: 1px solid rgb(235, 229, 229);
+    background-color: rgb(247, 247, 247);
+    margin: 1rem;
+    overflow: hidden;
+    transition: 1s;
+}
+.new-arrival__tag{
+    text-align: right;
+    color: #fff;
+    background-color: rgb(255, 166, 57);
+    font-size: small;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem 10rem;
+    position: absolute;
+    transition: 1s;
+} 
+.new-arrival__card:hover{
+    background-color: #f0b153;
+    height: 470px;
+}
+.new-arrival__card:hover span{
+    color: black;
+
+}
+
+.data button{
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    font-size: medium;
+    color: #fff;
+    background-color: rgb(29, 28, 28);
+}
+.data h3{
+    padding: 0.5rem;
+}
+.new-arrival__price{
+    color: #ffba4c;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s ;
+}
+.new-arrival__price:hover{
+    color: black;
+}
+
+
+/*newsletter*/
+.newsletter__container{
+    height: 15rem;
+    padding: 5rem;
+    margin-top:  5rem;
+    background-color: #ffba4c;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter_text h1{
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.newsletter_text p{
+    color: rgb(133, 127, 127);
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif
+}
+.newsletter__box{
+    display: flex;
+    padding: 1.5rem;
+}
+.newsletter__box input{
+    height: 3rem;
+    width: 10rem;
+
+}
+.newsletter__box button{
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+}
+/*footer*/
+.footer__container{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__content h3{
+    padding-bottom: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    margin: 1rem;
+    font-size: large;
+}
+
+@media screen and(max-width:991px){
+    .featured__main{
+        padding-top: 5rem;
+        display: flex;
+        align-items: center;
+}
+   
+}
